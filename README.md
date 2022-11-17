@@ -9,6 +9,10 @@ Do you receive many e-mails and want to answer them with a team of agents?
 
 You're going to love Zammad!
 
+## Fork
+
+This fork has a simple, but much wanted addition of BCC. It's created by changing the current CC function to work as a BCC. Since Zammad can only BCC if you enable it for EVERY mail you send, this is a much better solution that, for example, wont spam your archiving software that you are BCCing mails to.
+
 ## Status
 
 - Toolchain: ![ci](https://github.com/zammad/zammad/workflows/ci/badge.svg) ![build-docker-compose-images](https://github.com/zammad/zammad/workflows/build-docker-compose-images/badge.svg) ![build-docker-image](https://github.com/zammad/zammad/workflows/build-docker-image/badge.svg) [![Code Climate](https://codeclimate.com/github/zammad/zammad/badges/gpa.svg)](https://codeclimate.com/github/zammad/zammad) [![Documentation Status](https://readthedocs.org/projects/zammad/badge/)](https://docs.zammad.org)
