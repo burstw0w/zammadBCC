@@ -60,7 +60,7 @@ class TicketArticleCommunicateEmailJob < ApplicationJob
           references:   ticket.get_references([record.message_id]),
           from:         record.from,
           to:           record.to,
-          cc:           record.cc,
+          bcc:          record.cc,
           subject:      subject,
           content_type: record.content_type,
           body:         record.body,
